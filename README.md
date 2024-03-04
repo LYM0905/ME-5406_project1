@@ -17,13 +17,13 @@ Consider a RL based robot is in a grid frozen lake environment, where the goal o
 
 ## Usage
 ### Parameters
-It should be noted that you need to go to Parameters.py to adjust the parameters yourself first to fit the situation.
+It is a program that adjusts the environment and hyperparameters of various algorithms.It should be noted that you need to go to Parameters.py to adjust the parameters yourself first to fit the situation.
 
 ### Main
 This is the main file for both tasks.
 Need to define the RL agent type ('mc'/'sarsa'/'ql'), the grid world size (4/10), the number of training epochs.
 
-For example, if you want to train q-learning with 4x4 grid world with 10000 epochs, then you could use
+For example, if you want to train q-learning with 4x4 grid world , then you could use
 ```
 python main.py --agent 'mc' 
 ```
@@ -48,9 +48,6 @@ It is a subroutine of the Firstvisit_Monte_carlo_control algorithm.
 
 ### Q_learning
 It is a subroutine of the Q_learning algorithm.
-
-### Parameters
-It is a program that adjusts the environment and hyperparameters of various algorithms.
 
 ### Environment
 It is a program that sets up the task simulation environment.
